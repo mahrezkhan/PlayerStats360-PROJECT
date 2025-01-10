@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="480.0" maxWidth="854.0" minHeight="480.0" minWidth="854.0" prefHeight="480.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.playerstatsproject.CountrywisePlayerCountController">
+    <children>
+      <ImageView fitHeight="480.0" fitWidth="854.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/resize-17355968461151385982Screenshot20241231041344.jpg" />
+         </image>
+      </ImageView>
+        <ListView fx:id="listview" layoutX="315.0" layoutY="70.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@list.css" />
+      <ImageView fitHeight="701.0" fitWidth="307.0" layoutX="545.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/Screenshot_2024-12-31_071207-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BySalaryRange" defaultButton="true" layoutX="616.0" layoutY="324.0" onAction="#ClickBySalaryRange" prefHeight="34.0" prefWidth="140.0" styleClass="button2" stylesheets="@Mainbuttons.css" text="Salary Range">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="ByPlayerName" defaultButton="true" layoutX="60.0" layoutY="324.0" onAction="#ClickByPlayerName" prefHeight="34.0" prefWidth="140.0" styleClass="button2" stylesheets="@Mainbuttons.css" text="Player Name">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="ByClubandCountry" defaultButton="true" layoutX="229.0" layoutY="324.0" onAction="#ClickByClubandCountry" prefHeight="34.0" prefWidth="140.0" styleClass="button2" stylesheets="@Mainbuttons.css" text="Club &amp; Country">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="Countrywiseplayercount" defaultButton="true" layoutX="229.0" layoutY="390.0" onMouseClicked="#ClickCountrywiseplayercount" prefHeight="34.0" prefWidth="140.0" styleClass="button2" stylesheets="@forSearchPlayer.css" text="Player Count">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="BacktoMainMenu" defaultButton="true" layoutX="439.0" layoutY="390.0" onAction="#ClickBacktoMainMenu" prefHeight="34.0" prefWidth="140.0" stylesheets="@Mainbuttons.css" text="Back">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="ByPosition" defaultButton="true" layoutX="439.0" layoutY="324.0" onAction="#ClickByPosition" prefHeight="34.0" prefWidth="140.0" stylesheets="@Mainbuttons.css" text="Position">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

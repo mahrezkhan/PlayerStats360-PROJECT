@@ -1,0 +1,28 @@
+.list-view {
+    -fx-background-color: black;
+    -fx-control-inner-background: black;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+}
+
+.list-cell {
+    -fx-background-color: black;
+    -fx-border-color: #5b5b5b;
+        -fx-border-width: 0 0 1 0;
+        -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-font-family: "Arial";
+}
+
+.list-cell:filled:selected, .list-cell:filled:selected:focused {
+    -fx-background-color: darkgray;
+    -fx-text-fill: black;
+}
+
+.scroll-bar {
+    -fx-background-color: black;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: grey;
+}

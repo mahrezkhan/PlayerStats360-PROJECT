@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="431.0" maxWidth="311.0" minHeight="431.0" minWidth="311.0" prefHeight="431.0" prefWidth="311.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.playerstatsproject.PlayerProfileController">
+    <children>
+      <ImageView fitHeight="431.0" fitWidth="311.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/resize-1735611194837801489resize17355968461151385982Screenshot20241231041344.jpg" />
+         </image>
+      </ImageView>
+        <ImageView fitHeight="431.0" fitWidth="311.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/resize-17356439341631433876resize1-removebg-preview.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+        </ImageView>
+        <Label layoutX="103.0" layoutY="314.0" text="AGE" textFill="WHITE" AnchorPane.bottomAnchor="100.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="jersey" layoutX="103.0" layoutY="276.0" text="JERSEY" textFill="WHITE" AnchorPane.bottomAnchor="138.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="103.0" layoutY="295.0" text="HEIGHT" textFill="WHITE" AnchorPane.bottomAnchor="119.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="156.0" layoutY="276.0" prefHeight="7.0" prefWidth="100.0" text="WEEKLY SALARY" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="jerseynumber" alignment="CENTER" contentDisplay="CENTER" layoutX="61.0" layoutY="276.0" prefHeight="17.0" prefWidth="40.0" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="height" alignment="CENTER" contentDisplay="CENTER" layoutX="61.0" layoutY="295.0" prefWidth="40.0" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="age" alignment="CENTER" contentDisplay="CENTER" layoutX="61.0" layoutY="314.0" prefWidth="40.0" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="weeklysalary" alignment="CENTER" contentDisplay="CENTER" layoutX="156.0" layoutY="296.0" prefHeight="7.0" prefWidth="100.0" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="name" alignment="CENTER" contentDisplay="CENTER" layoutX="43.0" layoutY="240.0" prefHeight="30.0" prefWidth="219.0" text="NAME OF THE PLAYER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="position" alignment="CENTER" contentDisplay="CENTER" layoutX="66.0" layoutY="124.0" prefHeight="20.0" prefWidth="45.0" text="ALL" textAlignment="JUSTIFY" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="image" fitHeight="130.0" fitWidth="120.0" layoutX="130.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="country" fitHeight="25.0" fitWidth="40.0" layoutX="67.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="ClubImage" fitHeight="35.0" fitWidth="40.0" layoutX="67.0" layoutY="194.0" pickOnBounds="true" />
+    </children>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>
