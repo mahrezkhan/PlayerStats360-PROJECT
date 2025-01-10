@@ -2,6 +2,8 @@
 PlayerStats360 is a JavaFX-based IPL Players Data Management Application that offers a comprehensive way to search, view, add, and manage player data. The application features two access modes: Guest Mode and Manager Mode, with a key highlight being the player transfer 
 system implemented using Java networking concepts.
 
+__Check out the full project demonstration on LinkedIn:__
+https://www.linkedin.com/posts/mahrezkhan_l-1-t-2-project-playerstats360-developed-activity-7283317765602455552-yEne?utm_source=share&utm_medium=member_desktop
 
 __Project Features:__<br>
 <br>
